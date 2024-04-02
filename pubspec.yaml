@@ -1,0 +1,38 @@
+name: flutter_sakura_test
+description: A new Flutter project.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.6 <3.0.0"
+
+dependencies:
+  bloc: ^8.1.4
+  bloc_test: ^9.1.7
+  build_runner: null
+  cupertino_icons: ^1.0.2
+  dartz: ^0.10.1
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.5
+  flutter_screenutil: null
+  get_it: null
+  go_router: null
+  google_fonts: null
+  http: null
+  intl: null
+  mockito: null
+  rxdart: ^0.27.7
+  sqflite: null
+  calendar_view: ^1.1.0
+  path: ^1.8.2
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
